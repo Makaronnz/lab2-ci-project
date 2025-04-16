@@ -1,8 +1,15 @@
 stages:
   - build
+  - test
 
 build:
   stage: build
   script:
-    - echo "Mixxin"
-    - echo "Compleed!!"
+    - echo "Mixinn"
+    - echo "Complededd!!"
+
+test:
+  stage: test
+  script:
+    - echo "Testinn"
+    - echo "Good job!!"
